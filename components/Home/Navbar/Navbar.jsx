@@ -27,7 +27,7 @@ function DrawerAppBar(props) {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
-                MUI
+                Onur Ardıç
             </Typography>
             <Divider />
             <List sx={{ display: 'flex', flexDirection: "column" }}>
@@ -67,7 +67,7 @@ function DrawerAppBar(props) {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        MUI
+                        Onur Ardıç
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'flex' }, gap: '20px' }}>
                         <ListItem disablePadding>
