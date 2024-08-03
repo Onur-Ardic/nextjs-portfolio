@@ -1,5 +1,8 @@
 import './globals.css'
 import Navbar from '@/components/Home/Navbar/Navbar'
+import StoreProvider from './StoreProvider'
+import { ThemeWrapper } from './ThemeProvider'
+import ThemeButton from '@/components/Uİ/ThemeButton'
 
 export const metadata = {
   title: 'Onur Ardıç',
@@ -9,10 +12,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Navbar />
-        {children}
-      </body>
+      <StoreProvider>
+        <ThemeWrapper>
+          <Navbar />
+          <ThemeButton />
+          {children}
+        </ThemeWrapper>
+      </StoreProvider>
     </html>
   )
 }

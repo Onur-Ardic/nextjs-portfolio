@@ -14,3 +14,44 @@
 .edu-qld {
   font-family: 'Edu QLD Beginner', cursive;
 }
+
+.line {
+  border: 0;
+  height: 1px;
+  background-color: #fff;
+}
+
+.light {
+  background-color: #f9f9f9;
+  color: #212121;
+  nav {
+    background-color: #f9f9f9;
+    color: #212121;
+    font-family: 'Josefin Sans', sans-serif;
+
+    li {
+      a {
+        color: #212121;
+      }
+    }
+  }
+  .hero-wrapper {
+    background-color: #f2f0f1;
+    color: #121212;
+  }
+}
+
+.dark {
+  background-color: #0f172a;
+  color: #f9f9f9;
+
+  nav {
+    background-color: #0f172a;
+    color: #fff;
+  }
+
+  .hero-wrapper {
+    background-color: #0f172a;
+    color: #fff;
+  }
+}

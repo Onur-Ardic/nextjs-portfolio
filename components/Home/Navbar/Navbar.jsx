@@ -13,6 +13,7 @@ import Typography from '@mui/material/Typography'
 import { useState } from 'react'
 import Link from 'next/link'
 
+
 const drawerWidth = 240
 
 
@@ -43,6 +44,10 @@ function DrawerAppBar(props) {
                     Articles
                 </Typography>
             </List>
+
+
+
+
         </Box>
     )
 
@@ -51,7 +56,7 @@ function DrawerAppBar(props) {
     return (
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
-            <AppBar component="nav" sx={{ backgroundColor: "#121212" }}>
+            <AppBar component="nav" >
                 <Toolbar>
                     <IconButton
                         color="inherit"
