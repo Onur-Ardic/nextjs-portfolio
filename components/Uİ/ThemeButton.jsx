@@ -9,7 +9,7 @@ import DarkModeIcon from '@mui/icons-material/DarkMode';
 
 const ThemeButton = () => {
     const dispatch = useDispatch()
-    const [theme, setOnTheme] = useState("light")
+    const [theme, setOnTheme] = useState("dark")
     dispatch(setTheme(theme))
 
     const setThemeValue = () => {
