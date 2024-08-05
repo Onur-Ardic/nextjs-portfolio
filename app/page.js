@@ -1,6 +1,7 @@
 import AboutLeft from '@/components/Home/About/AboutLeft'
 import HeroLeft from '@/components/Home/Hero/HeroLeft'
 import HeroRight from '@/components/Home/Hero/HeroRight'
+import Articles from '@/components/Home/Projects_Articles/Articles'
 import Projects from '@/components/Home/Projects_Articles/Projects'
 import ProjetcsSlide from '@/components/Home/Projects_Articles/ProjectsSlide'
 import Image from 'next/image'
@@ -38,6 +39,7 @@ export default function Home() {
 
           <div className='articles'>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo iusto at libero eum aut eos fugiat repellendus in similique illo, suscipit quas sequi exercitationem ipsa.</p>
+            <Articles />
           </div>
         </div>
       </section>
