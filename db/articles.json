@@ -1,0 +1,37 @@
+{
+  "Articles": [
+    {
+      "id": "1",
+      "img": "https://www.cloudfronts.com/wp-content/uploads/2023/01/image-2.png",
+      "title": "Frontend & BaseClass",
+      "link": "https://medium.com/@onurardc/frontend-baseclass-0ebcfaa5bd4b"
+    },
+    {
+      "id": "2",
+      "img": "https://miro.medium.com/v2/resize:fit:1242/format:webp/1*8sMJFmnYejeew1tuzW1agg.png",
+      "title": "Neden Framework & Library?",
+      "link": "https://medium.com/@onurardc/neden-framework-library-0433672820b5"
+    },
+
+    {
+      "id": "3",
+      "img": "https://cloud.z.com/vn/wp-content/uploads/2024/01/Screenshot_1-6.png",
+      "title": "Javascript nasıl çalışır ?",
+      "link": "https://medium.com/@onurardc/javascript-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-ed135d4e1881"
+    },
+
+    {
+      "id": "4",
+      "img": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*nqzfcJmmmxPpmn7fDmYs3A.png",
+      "title": "Nedir bu flexbox?",
+      "link": "https://medium.com/@onurardc/neden-framework-library-0433672820b5"
+    },
+
+    {
+      "id": "5",
+      "img": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*FMs7qR88GGDo5bgyLcfmFg.png",
+      "title": "Solid Presipleri Nelerdir ? Front End tarafında nasıl uygulamalıyız.",
+      "link": "https://medium.com/@onurardc/solid-presipleri-nelerdir-front-end-taraf%C4%B1nda-nas%C4%B1l-uygulamal%C4%B1y%C4%B1z-110529a7891d"
+    }
+  ]
+}
