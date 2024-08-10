@@ -1,9 +1,11 @@
 import AboutLeft from '@/components/Home/About/AboutLeft'
 import HeroLeft from '@/components/Home/Hero/HeroLeft'
 import HeroRight from '@/components/Home/Hero/HeroRight'
+import AddArticleForm from '@/components/Home/Projects_Articles/Articles/AddArticleForm'
 import Articles from '@/components/Home/Projects_Articles/Articles/Articles'
 import Projects from '@/components/Home/Projects_Articles/Projects'
 import ProjetcsSlide from '@/components/Home/Projects_Articles/ProjectsSlide'
+import AddButton from '@/components/Uİ/AddButton'
 import Image from 'next/image'
 
 export default function Home() {
@@ -35,7 +37,13 @@ export default function Home() {
           <Projects />
 
           <div className="articles">
-            <h4 className="text-center text-2xl mt-3">Articles</h4>
+            <div className="articles-content">
+              <h4 className="text-center text-2xl mt-3">Articles</h4>
+              <AddButton text={'Add Article'} />
+            </div>
+
+            <AddArticleForm />
+
             <Articles />
           </div>
         </div>
