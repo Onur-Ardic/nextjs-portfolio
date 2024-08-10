@@ -1,8 +1,8 @@
 'use client'
-import AddButton from '@/components/Uİ/AddButton'
 import SimpleSnackbar from '@/components/Uİ/Snackbar'
+
 import { TextField } from '@mui/material'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const AddArticleForm = () => {
   const [image, setImage] = useState('')
@@ -39,7 +39,7 @@ const AddArticleForm = () => {
       <div className="form-inputs flex flex-col">
         <TextField
           id="outlined-basic"
-          label="Article İmage Url"
+          label="Article Image Url"
           variant="filled"
           sx={{ borderColor: 'white' }}
           onChange={(event) => setImage(event.target.value)}
@@ -60,7 +60,7 @@ const AddArticleForm = () => {
           sx={{ borderColor: 'white' }}
           onChange={(event) => setLink(event.target.value)}
         />
-        <button className="border p-1" type="Submit">
+        <button className="border p-1" type="submit">
           Add Article
         </button>
       </div>
