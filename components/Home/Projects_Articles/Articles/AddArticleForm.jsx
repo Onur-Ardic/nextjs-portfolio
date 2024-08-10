@@ -2,7 +2,7 @@
 import SimpleSnackbar from '@/components/Uİ/Snackbar'
 
 import { TextField } from '@mui/material'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 const AddArticleForm = () => {
   const [image, setImage] = useState('')

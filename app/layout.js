@@ -3,6 +3,7 @@ import Navbar from '@/components/Home/Navbar/Navbar'
 import StoreProvider from './StoreProvider'
 import { ThemeWrapper } from './ThemeProvider'
 import ThemeButton from '@/components/Uİ/ThemeButton'
+import { Toaster } from 'react-hot-toast'
 
 export const metadata = {
   title: 'Onur Ardıç',
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <StoreProvider>
         <ThemeWrapper>
           <Navbar />
+          <Toaster />
           <ThemeButton />
           {children}
         </ThemeWrapper>

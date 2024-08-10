@@ -1,6 +1,4 @@
 'use client'
-import MuiButton from '@/components/Uİ/MuiButton'
-import Image from 'next/image'
 import React from 'react'
 import Slider from 'react-slick'
 import ArticleCard from './ArticlesCard'
