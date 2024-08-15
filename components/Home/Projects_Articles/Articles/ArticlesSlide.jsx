@@ -12,7 +12,7 @@ function ArticlesSlide({ articlesData }) {
     speed: 500,
     rows: 2,
     slidesPerRow: 1,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
   }
   return (
     <div className="slider-container mt-10">
