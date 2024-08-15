@@ -1,4 +1,5 @@
 import AboutLeft from '@/components/Home/About/AboutLeft'
+import Footer from '@/components/Home/Footer/Footer'
 import HeroLeft from '@/components/Home/Hero/HeroLeft'
 import HeroRight from '@/components/Home/Hero/HeroRight'
 import Articles from '@/components/Home/Projects_Articles/Articles/Articles'
@@ -31,7 +32,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="projetcs-articles container mx-auto mt-10">
+      <section className="projetcs-articles container mx-auto">
         <div className="projects-articles-wrapper grid grid-cols-2 gap-10">
           <Projects />
           <div>

@@ -4,6 +4,7 @@ import StoreProvider from './StoreProvider'
 import { ThemeWrapper } from './ThemeProvider'
 import ThemeButton from '@/components/Uİ/ThemeButton'
 import { Toaster } from 'react-hot-toast'
+import Footer from '@/components/Home/Footer/Footer'
 
 export const metadata = {
   title: 'Onur Ardıç',
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
           <Toaster />
           <ThemeButton />
           {children}
+          <Footer />
         </ThemeWrapper>
       </StoreProvider>
     </html>
