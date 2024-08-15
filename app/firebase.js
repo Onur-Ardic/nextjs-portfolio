@@ -1,5 +1,6 @@
 import { initializeApp } from 'firebase/app'
 import { getAuth, signInWithEmailAndPassword, signOut } from 'firebase/auth'
+
 import toast from 'react-hot-toast'
 
 const firebaseConfig = {
@@ -12,6 +13,7 @@ const firebaseConfig = {
 }
 
 const app = initializeApp(firebaseConfig)
+
 const auth = getAuth()
 
 export const Login = async (email, password) => {
