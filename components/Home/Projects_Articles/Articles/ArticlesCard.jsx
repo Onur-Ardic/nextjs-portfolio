@@ -16,7 +16,7 @@ export default function ArticleCard({ article }) {
     setUser(storedUser)
   }, [])
   const deleteHandler = (id) => {
-    fetch(`http://localhost:3001/Articles/${id}`, {
+    fetch(`https://nextjs-portfolio-db.vercel.app/Articles/${id}`, {
       method: 'DELETE',
     }).then(() => {
       toast.success('Article deleted successfully')

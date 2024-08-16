@@ -20,7 +20,7 @@ const AddArticleForm = () => {
       link: link,
     }
 
-    fetch('http://localhost:3001/Articles', {
+    fetch('https://nextjs-portfolio-db.vercel.app/Articles', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newArticle),

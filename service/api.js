@@ -9,7 +9,7 @@ export async function getRepos() {
 }
 
 export async function getArticles() {
-  const res = await fetch('http://localhost:3001/Articles')
+  const res = await fetch('https://nextjs-portfolio-db.vercel.app/Articles')
 
   if (!res.ok) {
     throw new Error('Failed to fetch data')
