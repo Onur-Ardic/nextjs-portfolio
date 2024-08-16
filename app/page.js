@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="pt-16 josefin-sans ">
       <header className="hero-wrapper  ">
-        <div className="hero-container container mx-auto grid grid-cols-2 justify-center items-center ">
+        <div className="hero-container container mx-auto grid justify-center items-center md:grid-cols-2">
           <HeroLeft />
           <HeroRight />
         </div>
@@ -21,7 +21,7 @@ export default function Home() {
 
       <section className="about-us container mx-auto border rounded-md p-3 mt-10 border-slate-50">
         <div className="about-us-title text-center my-5 text-3xl">About Us</div>
-        <div className="about-content-wrapper grid grid-cols-2 gap-4 ">
+        <div className="about-content-wrapper grid gap-4  md:grid-cols-2 ">
           <AboutLeft />
 
           <div className="about-us-right">
@@ -33,7 +33,7 @@ export default function Home() {
       </section>
 
       <section className="projetcs-articles container mx-auto">
-        <div className="projects-articles-wrapper grid grid-cols-2 gap-10">
+        <div className="projects-articles-wrapper grid md:grid-cols-2 gap-10">
           <Projects />
           <div>
             <ArticlesWrapper />

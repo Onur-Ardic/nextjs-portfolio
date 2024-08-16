@@ -58,3 +58,10 @@
     color: #fff;
   }
 }
+
+@media (max-width: 768px) {
+  .slider-container {
+    width: 100vw;
+    padding: 30px;
+  }
+}
