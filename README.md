@@ -33,9 +33,10 @@ Kullanılan Teknolojiler
 
     Material-UI (MUI): Kullanıcı arayüzü bileşenleri için.
     SCSS: Stil düzenlemeleri için.
+    React Slick : Sayfada kullanılan carouseller için.
     Redux Toolkit: Durum yönetimi için.
     Next.js 14 App Router: Uygulama yönlendirmesi ve sayfa yönetimi için.
-    Firebase: Gerçek zamanlı veri işleme ve kullanıcı doğrulama için.
+    Firebase: Kullanıcı doğrulama için.
     React Hot Toast: Kullanıcıya bildirimler göstermek için.
     Auto Animate: Animasyon ve geçiş efektleri için.
 
