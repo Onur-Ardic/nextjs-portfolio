@@ -45,4 +45,6 @@ https://nextjs-portfolio-eight-chi-36.vercel.app/
 
 
 Projenin Lighthouse puanları;
+
+
 ![Ekran Resmi 2024-08-20 00 30 25](https://github.com/user-attachments/assets/a6f6c06b-6384-4f62-964d-a5d45ba6bfce)
