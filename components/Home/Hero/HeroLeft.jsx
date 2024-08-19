@@ -23,6 +23,7 @@ const HeroLeft = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-xl font-bold "
+            aria-label="github"
           >
             <GitHubIcon fontSize="large" />
           </Link>
@@ -32,6 +33,7 @@ const HeroLeft = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-xl font-bold "
+            aria-label="linkedin"
           >
             <LinkedInIcon fontSize="large" />
           </Link>
@@ -41,13 +43,14 @@ const HeroLeft = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-xl font-bold "
+            aria-label="instagram"
           >
             <InstagramIcon fontSize="large" />
           </Link>
         </div>
 
         <div className="resume-button mt-5">
-          <Button href={'/OnurArdicGüncel.pdf'} variant="contained">
+          <Button href={'/OnurArdicGüncel.pdf'} aria-label="dowloand-cv-button" variant="contained">
             Dowloand CV
           </Button>
         </div>

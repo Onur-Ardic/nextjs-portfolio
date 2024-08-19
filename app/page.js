@@ -25,8 +25,8 @@ export default function Home() {
           <AboutLeft />
 
           <div className="about-us-right">
-            <div className="about-us-right-image relative  h-96">
-              <Image src={'/about-img.png'} fill className="rounded-md" />
+            <div className="about-us-right-image relative h-96 aspect-w-16 aspect-h-9">
+              <Image src="/about-img.png" fill className="rounded-md" alt="about-me-image" />
             </div>
           </div>
         </div>

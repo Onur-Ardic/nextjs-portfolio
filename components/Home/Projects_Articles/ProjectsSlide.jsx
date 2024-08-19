@@ -28,7 +28,7 @@ function ProjetcsSlide({ projects }) {
     <div className="slider-container ubuntu">
       <Slider {...settings}>
         {projects.slice(1, 15).map((project) => (
-          <div key={project.id} className="border p-3 rounded-sm ">
+          <div aria-hidden="true" key={project.id} className="border p-3 rounded-sm ">
             <h3 className="my-3">{project.name}</h3>
             <p>{project.description}</p>
             <MuiButton link={project.html_url} variant={'outlined'} text={'View Project'} />
